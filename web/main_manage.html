@@ -1,0 +1,35 @@
+<? include '../include/top.php' ?>
+<link rel="stylesheet" href="<?=$root?>/css/sub_tag.css">
+</head>
+<body>
+	<div id="wrap">
+		<? include '../include/header.php' ?>
+		<div id="subPage">
+			<div class="wWrap">
+				<div id="leftBox">
+					<? include '../include/snb_web.php' ?>
+				</div>
+				<div id="rightBox">
+					<div id="contents">
+						<? include '../include/location_box.php' ?>
+						<div id="p_main_manage">
+							<div class="subPage_title">
+								<h2>페이지제목</h2>
+							</div>
+							<!-- contents s -->
+							서브페이지
+							<!-- contents e -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<? include '../include/footer.php' ?>
+	</div>
+	<script type="text/javascript">
+		//현재페이지
+		currentLocation(0,0,0);
+		changeTitle();
+	</script>
+</body>
+</html>

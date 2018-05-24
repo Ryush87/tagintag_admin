@@ -1,0 +1,27 @@
+/*
+===============================================================================================
+1.	버    전 : common.css
+2.	작 성 자 : Ryu
+3.	참    고 : Common
+===============================================================================================
+*/
+
+/* common */
+.txtBox {float:left;font-size:1.4em;letter-spacing:-0.025em;line-height:24px;color:#777;}
+.descBox {float:left;margin-top:40px;width:100%;}
+
+/* pagingBoxWrap */
+.pagingBoxWrap {float:left;width:100%;margin-top:40px;text-align:center;}
+	.pagingBox {display:inline-block;}
+		.pagingBox li {float:left;width:30px;height:30px;line-height:26px;text-align:center;cursor:pointer;}
+			.pagingBox .numBtn {margin:0 2px;border:1px solid #ddd;}
+			.pagingBox .numBtn a {display:block;width:100%;height:100%;font-size:1.2em;font-weight:normal;color:#888;}
+			.pagingBox .abL, .pagingBox .abLL,
+			.pagingBox .abR, .pagingBox .abRR {margin:0 2px;border:1px solid #ddd;}
+			.pagingBox .angleBtn a {font-size:1.6em;color:#888;}
+			.pagingBox .angleBtn:hover, .pagingBox .numBtn:hover, .pagingBox .actOn {background:#3c5a7e;border:1px solid #3c5a7e;}
+			.pagingBox .angleBtn:hover a, .pagingBox .numBtn:hover a, .pagingBox .actOn a {color:#fff;}
+
+/* web */
+#p_main_manage {float:left;width:100%;}
+	

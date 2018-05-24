@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*
+===============================================================================================
+1.	버    전 : layout.css
+2.	작 성 자 : Ryu
+3.	참    고 : Layout
+===============================================================================================
+*/
+
+#wrap {float:left;width:100%;}
+	.wWrap {margin:0 auto;width:1280px;}
+#skipBox {position:absolute;top:0;left:0;z-index:1000;}
+	#skipBox a {position:absolute;top:-9999px;width:120px;}
+	#skipBox a:hover,
+	#skipBox a:focus {top:0;}
+#header {float:left;width:100%;}
+	#gnb {float:left;width:100%;background:#fff;}
+	#lnb {position:relative;float:left;width:100%;height:60px;border-bottom:1px solid #2b343a;}
+#mainPage {float:left;padding-top:40px;width:100%;}
+#subPage {float:left;padding-top:20px;width:100%;}
+	#leftBox {float:left;width:250px;}
+	#rightBox {float:left;margin-left:30px;margin-bottom:50px;padding:0 0 50px 0;width:1000px;background:#fff;}
+		#contents {float:left;width:100%;min-height:600px;}
+#footer {float:left;margin-top:0px;padding-top:30px;width:100%;height:150px;background:#3b3f3d;}
+
+/* media */
+@media only screen and (max-width:319px){
+
+}
+
+@media only screen and (min-width:320px) and (max-width:639px){
+
+}
+
+@media only screen and (min-width:640px) and (max-width:999px){
+
+}
+
+@media only screen and (min-width:1000px){
+
+}
+
+
+
+
+
